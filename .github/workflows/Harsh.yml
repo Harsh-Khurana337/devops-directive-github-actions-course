@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
 
 jobs:
-    say_hello:
+    say-hello-inline-bash:
         runs-on: ubuntu-24.04
         steps:
             - run: echo "This is a test"
